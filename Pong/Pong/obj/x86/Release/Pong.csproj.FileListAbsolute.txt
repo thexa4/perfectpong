@@ -1,0 +1,13 @@
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Graphics\blank.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Graphics\background.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Fonts\Default.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Fonts\Title.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Shaders\WaterEffect.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Shaders\PhongEffect.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Content\Audio\blip.xnb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Pong.exe
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\bin\x86\Release\Pong.pdb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\obj\x86\Release\Pong.exe
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\obj\x86\Release\Pong.pdb
+C:\Users\Max\Documents\Projects\Pong\Pong\Pong\obj\x86\Release\Pong.csprojResolveAssemblyReference.cache

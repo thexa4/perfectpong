@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pong.Actors.Ball" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQYEAAAAQAAgwAgAAAAAAAgAAAAAgAhAIAAAAAEAAQ=</HashCode>
+      <FileName>Actors\Ball.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Pong.Actors.DeadZone" BaseTypeListCollapsed="true">
+    <Position X="9" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAAgAAAAAAAAAAAAAgABAAAAAQAEAAQ=</HashCode>
+      <FileName>Actors\DeadZone.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Actors.Paddle" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEAAAAQAAwwAgAAAAAAAAAAAAAgAhAIAAAAAEAAQ=</HashCode>
+      <FileName>Actors\Paddle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Extension.ColorExtensions">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Extension\ColorExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Extension.SpriteBatchExtensions">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extension\SpriteBatchExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Level.Level">
+    <Position X="12" Y="13.25" Width="1.5" />
+    <AssociationLine Name="Actors" Type="Pong.Actors.ICollidable" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.438" Y="13.25" />
+        <Point X="12.438" Y="11.798" />
+        <Point X="7" Y="11.798" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAhQAgBAAAAAAAAAAkBAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Level\Level.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Actors" />
+      <Property Name="Players" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Pong.Level.Player">
+    <Position X="14.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Level\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Level" />
+      <Property Name="Paddle" />
+      <Property Name="Controller" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Pong.Level.WaterEffect" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAgAAggAAAIAAEAAABAAAEAAQAAgAAAAAAQ=</HashCode>
+      <FileName>Level\WaterEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.PongGame">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAgIBAAwAAAAAQAAAACAAAAAAAQAAAIACAAAQ=</HashCode>
+      <FileName>PongGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AudioManager" />
+      <Property Name="CollisionManager" />
+      <Property Name="InputManager" />
+      <Property Name="ScreenManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Pong.Program" Collapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.GameOverScreen" Collapsed="true">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAACAAAAAA0AAAAQAAGAAAAAAIAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\GameOverScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.HeadsUpDisplayPopup" Collapsed="true">
+    <Position X="18.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAABAAAQAAA0AAAAAAAQAAAAAAIAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\HeadsUpDisplayPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.MenuScreen" Collapsed="true">
+    <Position X="20.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAACAAAAAA0AAAAAAAAAAAAAAIAAAAAAAAEBAAIQ=</HashCode>
+      <FileName>Screens\MenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.OptionsScreen" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAACAAIQAA0IABAABAAAAAAACIAAAAAAAAEBAAIQ=</HashCode>
+      <FileName>Screens\OptionsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.PauseScreen" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQIAACgAQAAB0AAAAAQAQAAAAAAIAAAAAAAAEBQBIQ=</HashCode>
+      <FileName>Screens\PauseScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.PlayingScreen" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Pong.Services.GameScreen" FixedToPoint="true">
+      <Path>
+        <Point X="14" Y="2.812" />
+        <Point X="14" Y="3.375" />
+        <Point X="12.938" Y="3.375" />
+        <Point X="12.938" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="_level" Type="Pong.Level.Level" FixedFromPoint="true">
+      <Path>
+        <Point X="13" Y="5.441" />
+        <Point X="13" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQQAAACAAIAAAxAAAAAQAQAAAAAgIAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>Screens\PlayingScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_level" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Pong.Screens.SelectInputScreen" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAACAAAAAA0AAAAAIAAAAAAAAIAAAAAAAAEBAAIQ=</HashCode>
+      <FileName>Screens\SelectInputScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Screens.TitleScreen" Collapsed="true">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAACAAACAA0AAAAQAAEAAAAAAIAAACAABAAAAAAQ=</HashCode>
+      <FileName>Screens\TitleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.AudioManager" Collapsed="true">
+    <Position X="15.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAAAAQAAAAAAAAAAAAAAAAAgoBAAAAAAAAA=</HashCode>
+      <FileName>Services\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.CollisionManager" Collapsed="true">
+    <Position X="8.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAABQAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CollisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_collidables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Pong.Services.ComputerEasyController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAQAAACAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ComputerEasyController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Services.ComputerHardController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAQAAACAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ComputerHardController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Services.FontManager" Collapsed="true">
+    <Position X="17.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAIAAAAAAAAgAAAAAAgAAAw=</HashCode>
+      <FileName>Services\FontManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.GamepadPaddleController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAgAAAAAAQAAACAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\GamepadPaddleController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Services.GameScreen" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhwIMACAAGBAEwAFEAMRQAgBJggAAihBAAAGIAaAhAQ=</HashCode>
+      <FileName>Services\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.GameSettings" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAgBAAAAAAAAAIYAAAggCAgAAIAQAAAIAgAKgA=</HashCode>
+      <FileName>Services\GameSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.InputManager">
+    <Position X="19" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Services\InputManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GamePad" />
+      <Property Name="Keyboard" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Pong.Services.KeyboardInputComponent" Collapsed="true">
+    <Position X="20.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAABQABAIAAEgEgAAAACAAAAKRFGEACiAAQAAAQBA=</HashCode>
+      <FileName>Services\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.GamepadInputComponent" Collapsed="true">
+    <Position X="18" Y="10.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Pong.Services.GamepadInputComponent.ConnectDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Services\InputManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAgIAAAAEBAAAEAAAAACAgBBA=</HashCode>
+      <FileName>Services\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Services.KeyboardPaddleController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAACAAAAAAAgAAAAABAAAAAAAAQAA=</HashCode>
+      <FileName>Services\KeyboardPaddleController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Services.ScreenManager" Collapsed="true">
+    <Position X="15.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAFBAgFEAEIwAAAIAAABQAAAhACgBAZAAEIgABAEQ=</HashCode>
+      <FileName>Services\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpriteFonts" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_screens" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="Pong.Actors.ICollidable">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAAgAAAAAAAAAAAAAgAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Actors\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Pong.Services.IPaddleController">
+    <Position X="17.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IPaddleController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Direction" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Pong.Services.IPaddleAIController" Collapsed="true">
+    <Position X="17.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IPaddleController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Pong.Services.PaddleDirection">
+    <Position X="17.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Services\IPaddleController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Pong.Services.ScreenState" Collapsed="true">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAACAgAAAIAAAEAAA=</HashCode>
+      <FileName>Services\ScreenState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
