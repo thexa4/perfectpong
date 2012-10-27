@@ -5,9 +5,9 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
-using Pong.Services;
+using PerfectPong.Services;
 
-namespace Pong.Level
+namespace PerfectPong.Level
 {
     /// <summary>
     /// Draws the water effect and updates it

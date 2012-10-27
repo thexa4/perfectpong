@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     public class AudioManager : GameComponent
     {

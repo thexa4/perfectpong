@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 using System.Diagnostics;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     /// <summary>
     /// The screen manager is a component which manages one or more <see cref="GameScreen"/>

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Pong.Services;
+using PerfectPong.Services;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
-using Pong.Extension;
+using PerfectPong.Extension;
 
-namespace Pong.Screens
+namespace PerfectPong.Screens
 {
     /// <summary>
     /// This screens allows setting the game options

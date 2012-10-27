@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace Pong.Actors
+namespace PerfectPong.Actors
 {
     /// <summary>
     /// Exposes information needed for collision management

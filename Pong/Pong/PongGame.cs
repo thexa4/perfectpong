@@ -8,9 +8,9 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using Pong.Services;
-using Pong.Screens;
-using Pong.Extension;
+using PerfectPong.Services;
+using PerfectPong.Screens;
+using PerfectPong.Extension;
 
 namespace Pong
 {

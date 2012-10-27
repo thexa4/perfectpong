@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong\Pong.csproj", "{F1AD5C19-0989-4961-ABBF-2699A6A5125E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectPong", "Pong\Pong\PerfectPong.csproj", "{F1AD5C19-0989-4961-ABBF-2699A6A5125E}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "PongContent", "Pong\PongContent\PongContent.contentproj", "{17BCC5D1-67F3-4585-8880-5049E221FE71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectPongContent", "Pong\PongContent\PerfectPongContent.contentproj", "{17BCC5D1-67F3-4585-8880-5049E221FE71}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution

@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Input;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     /// <summary>
     /// The InputManager Class provides functions for serveral different types of input. 

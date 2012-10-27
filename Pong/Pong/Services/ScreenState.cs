@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     public enum ScreenState
     {

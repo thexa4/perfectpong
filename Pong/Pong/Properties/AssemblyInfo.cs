@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Pong")]
-[assembly: AssemblyProduct("Pong")]
+[assembly: AssemblyTitle("Perfect Pong")]
+[assembly: AssemblyProduct("Perfect Pong")]
 [assembly: AssemblyDescription("Game Programmeren Practicum 1")]
 [assembly: AssemblyCompany("Derk-Jan Karrenbeld & Max Maton")]
 [assembly: AssemblyCopyright("Copyright Derk-Jan Karrenbeld & Max Maton ©  2012")]

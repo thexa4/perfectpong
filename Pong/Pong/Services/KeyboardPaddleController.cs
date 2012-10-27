@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     public class KeyboardPaddleController : GameComponent, IPaddleController
     {
