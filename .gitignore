@@ -113,3 +113,6 @@ UpgradeLog*.XML
 
 # Windows Thumbs files
 Thumbs.db
+bin
+obj
+obj
