@@ -1,0 +1,1 @@
+The hard AI interpolates where the ball will be once it hits the side of the screen and tries to go there. The endposition of the ball is calculated by multiplying the y/x speed with the distance to the wall. The resulting y position is then bounced mathematically off the walls of the level to calculate where the ball will end.

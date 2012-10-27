@@ -1,0 +1,5 @@
+A big part of the visuals is the water effect influenced by the ball and paddles. This water effect is created using a simple algorithm popular in the demoscene.
+
+The algorithm represents the water as a a raster of water heights, internally represented as a texture. Each step the velocity of the water is defined by substracting the current height from the average height of the surrounding pixels. This creates a typical ripple effect. The ball sets the velocity of the water to -1 each turn which causes the water to lower at that spot.
+
+The background texture is then drawn by offsetting the sampled position of the texture with the delta-x and delta-y of the water heights to simulate diffraction.

@@ -1,0 +1,1 @@
+In order to create a 3d like ball we use phong reflection model (http://en.wikipedia.org/wiki/Phong_reflection_model) and draw the block like it is a perfect circle by discarding all pixels outside the radius. A light is simulated at the center of the level in order to create a sense of movement.
