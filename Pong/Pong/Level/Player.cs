@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Pong.Services;
+using PerfectPong.Services;
 
-namespace Pong.Level
+namespace PerfectPong.Level
 {
     /// <summary>
     /// Stores player info

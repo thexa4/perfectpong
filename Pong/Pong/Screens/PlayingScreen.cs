@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Pong.Services;
+using PerfectPong.Services;
 using Microsoft.Xna.Framework;
-using Pong.Level;
+using PerfectPong.Level;
 
-namespace Pong.Screens
+namespace PerfectPong.Screens
 {
     public class PlayingScreen : GameScreen
     {

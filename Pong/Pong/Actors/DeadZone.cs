@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using Pong.Level;
+using PerfectPong.Level;
 using Microsoft.Xna.Framework.Content;
-using Pong.Services;
+using PerfectPong.Services;
 
-namespace Pong.Actors
+namespace PerfectPong.Actors
 {
     /// <summary>
     /// Kills a player if touched by a ball

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Pong.Services;
+using PerfectPong.Services;
 using Microsoft.Xna.Framework.Content;
-using Pong.Screens;
-using Pong.Extension;
+using PerfectPong.Screens;
+using PerfectPong.Extension;
 
-namespace Pong.Actors
+namespace PerfectPong.Actors
 {
     /// <summary>
     /// Stores data about paddles and updates it's position based on controllers

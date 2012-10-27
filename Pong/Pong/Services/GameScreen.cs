@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using System.Diagnostics;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     /// <summary>
     /// The GameScreen provides basic functionality to be used with the ScreenManager.

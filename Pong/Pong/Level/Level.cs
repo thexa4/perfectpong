@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using Pong.Services;
-using Pong.Actors;
-using Pong.Screens;
+using PerfectPong.Services;
+using PerfectPong.Actors;
+using PerfectPong.Screens;
 
-namespace Pong.Level
+namespace PerfectPong.Level
 {
     /// <summary>
     /// Creates levels and stores information about them

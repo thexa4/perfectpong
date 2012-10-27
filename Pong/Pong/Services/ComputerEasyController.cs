@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-using Pong.Actors;
+using PerfectPong.Actors;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     public class ComputerEasyController : GameComponent, IPaddleAIController
     {

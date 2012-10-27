@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Pong.Services
+namespace PerfectPong.Services
 {
     /// <summary>
     /// This Component loads and keeps track of all the fonts. It allows us to load a spritefont once instead of 

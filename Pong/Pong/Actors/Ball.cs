@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Pong.Services;
-using Pong.Level;
+using PerfectPong.Services;
+using PerfectPong.Level;
 using Microsoft.Xna.Framework.Content;
-using Pong.Screens;
+using PerfectPong.Screens;
 using Microsoft.Xna.Framework.Audio;
-using Pong.Extension;
+using PerfectPong.Extension;
 
-namespace Pong.Actors
+namespace PerfectPong.Actors
 {
     /// <summary>
     /// Holds data about the ball
