@@ -33,12 +33,12 @@
     <UpdateUrl>http://pong.derk-jan.org/xna/</UpdateUrl>
     <SupportUrl>http://pong.derk-jan.org</SupportUrl>
     <ErrorReportUrl>http://pong.derk-jan.org</ErrorReportUrl>
-    <ProductName>Perfect Pong %28Reach%29</ProductName>
+    <ProductName>Perfect Pong</ProductName>
     <PublisherName>Derk-Jan Karrenbeld &amp; Max Maton</PublisherName>
     <SuiteName>Perfect Pong</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.html</WebPage>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
