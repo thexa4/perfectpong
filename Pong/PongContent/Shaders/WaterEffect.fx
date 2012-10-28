@@ -7,6 +7,8 @@ sampler ScreenSampler = sampler_state
 {
 	Texture = <ScreenTexture>;
 	MipFilter = None;
+	AddressU = Clamp;
+    AddressV = Clamp;
 };
 
 sampler HeightSampler = sampler_state
@@ -14,6 +16,8 @@ sampler HeightSampler = sampler_state
 	Texture = <HeightTexture>;
 	MipFilter = None;
 	Filter = Point;
+	AddressU = Clamp;
+    AddressV = Clamp;
 };
 
 void SpriteVertexShader(inout float4 color    : COLOR0,

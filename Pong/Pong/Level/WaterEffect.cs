@@ -49,10 +49,12 @@ namespace PerfectPong.Level
         /// <param name="contentManager"></param>
         public void LoadContent(ContentManager contentManager)
         {
-            this.HeightData = new RenderTarget2D(this.Game.GraphicsDevice, this.Width, this.Height, false, SurfaceFormat.Single, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
-            this.HeightData2 = new RenderTarget2D(this.Game.GraphicsDevice, this.Width, this.Height, false, SurfaceFormat.Single, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
-            this.VelocityData = new RenderTarget2D(this.Game.GraphicsDevice, this.Width, this.Height, false, SurfaceFormat.Single, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
-            this.Empty = new Texture2D(this.Game.GraphicsDevice, 1, 1, false, SurfaceFormat.Single);
+            // TODO fix for surfaceformat single does not exist
+
+            this.HeightData = new RenderTarget2D(this.Game.GraphicsDevice, this.Width, this.Height, false, SurfaceFormat.Color, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
+            this.HeightData2 = new RenderTarget2D(this.Game.GraphicsDevice, this.Width, this.Height, false, SurfaceFormat.Color, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
+            this.VelocityData = new RenderTarget2D(this.Game.GraphicsDevice, this.Width, this.Height, false, SurfaceFormat.Color, DepthFormat.None, 0, RenderTargetUsage.PreserveContents);
+            this.Empty = new RenderTarget2D(this.Game.GraphicsDevice, 1, 1, false, SurfaceFormat.Color, DepthFormat.None);
             this.Changes = new List<Tuple<Vector2, float>>();
 
             this.Background = contentManager.Load<Texture2D>("Graphics\\background");
